@@ -173,6 +173,9 @@
                     <driver name="mysql" module="com.mysql">
                         <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
                     </driver>
+                    <driver name="oracle" module="com.oracle">
+                        <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+                    </driver>
                 </drivers>
             </datasources>
         </subsystem>
@@ -539,3 +542,4 @@
         </outbound-socket-binding>
     </socket-binding-group>
 </server>
+
