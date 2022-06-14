@@ -2,12 +2,14 @@ version: '3'
 services:
   contwildfly:
     build: ./wildfly
+    platform: linux/amd64
     ports:
     - "8080:8080"
     - "9990:9990"
     - "8787:8787"
   contmysql:
     build: ./mysql
+    platform: linux/amd64
     ports:
     - "3306:3306"
     
