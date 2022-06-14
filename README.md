@@ -2,4 +2,4 @@
 
 Esta asignatura se imparte en 3er curso del Grado de Ingeniería Informática de la Universidad de Málaga.
 
-La infaestructura consiste en una contenedor MySQL y otro de Wildfly interconectados.
+La infraestructura consiste en un contenedor MySQL y otro de Wildfly interconectados.
